@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: antiquewhite;
+  line-height: 2;
+}
+#main {
+  width: 75%;
+  margin: auto;
+}
+.head {
+  background-color: rgb(208, 160, 96);
+  text-align: center;
+}
+.im {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+#image-pic {
+  border-radius: 8px;
+}
+#image-label {
+  text-align: center;
+}
+.tribute-info {
+  text-align: center;
+}
+.ul {
+  background-color: rgb(181, 134, 74);
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+.quote {
+  background-color: rgb(181, 134, 74);
+  font-size: 20px;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+.quote p {
+  text-align: right;
+}
+
+.wiki {
+  background-color: rgb(120, 90, 51);
+  text-align: center;
+}
